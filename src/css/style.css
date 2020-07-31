@@ -1,5 +1,8 @@
-html{
-	font-family: Orbitron;
+*{
+  font-family: Orbitron;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 h1 {
