@@ -9,6 +9,10 @@ const Terminal = props => {
     useEffect(() => {
         $(mainRef.current).terminal({
             help: () => {
+                /**
+                 * This echo function is causing the error, 
+                 * as this is a function not a class, I guess
+                 */
                 this.echo('\nList of commands available:');
             }
         })
