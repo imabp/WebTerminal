@@ -1,24 +1,18 @@
-import React, { useRef, useEffect } from 'react'
+import React from 'react'
 import $ from 'jquery'
 import 'jquery.terminal'
 import 'jquery.terminal/css/jquery.terminal.css'
+import commands from '../commands'
 
-const Terminal = props => {
-    const mainRef = useRef(null)
-    useEffect(() => {
-        $(mainRef.current).terminal({
-            help: () => {
-                /**
-                 * This echo function is causing the error, 
-                 * as this is a function not a class, I guess
-                 */
-                this.echo('\nList of commands available:');
-            }
-        })
-    }, [])
+export default class Terminal extends React.Component{
 
-    return <div ref={mainRef} />
+    componentDidMount(){
+        this.$el = $(this.el)
+        this.$el.terminal(commands(this.$el))
+    }
+
+
+    render(){
+        return <div ref={el => this.el = el} /> 
+    }
 }
-
-
-export default Terminal
