@@ -9,6 +9,7 @@
     "install": "^0.13.0",
     "jquery": "^3.5.1",
     "jquery.terminal": "^2.17.6",
+    "lodash": "^4.17.19",
     "npm": "^6.14.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
