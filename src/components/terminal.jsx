@@ -1,5 +1,6 @@
 import React from 'react'
 import $ from 'jquery'
+
 import 'jquery.terminal'
 import 'jquery.terminal/css/jquery.terminal.css'
 import commands from '../commands'
