@@ -5,6 +5,9 @@ let fs =  context =>{
     return {
         ls: () => {
             context.echo(file.getPath())
+        },
+        cd: (arg) => {
+            context.echo(file.changeDir(arg))
         }
     }
 }

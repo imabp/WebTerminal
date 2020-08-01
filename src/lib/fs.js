@@ -8,6 +8,7 @@ class FileSystem{
         this.fs = [
             {
                 level: 0,
+                root: '/',
                 contents: ['Documents', 'Downloads']
             }
         ]
@@ -20,7 +21,19 @@ class FileSystem{
     }
 
     changeDir(dir){
-        
+        let dr = _.find(this.fs,{level: this.level})
+        if(!_.includes(dr.contents, dir) ){
+            return "directoy not present"
+        }
+        let d = {
+            level: this.level+1,
+            root: dir,
+            contents: []
+        }
+        this.level++
+
+        this.fs.push(d)
+        return d.contents
     }
 
 }
