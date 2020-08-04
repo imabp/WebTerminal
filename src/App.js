@@ -3,7 +3,7 @@ import Terminal from './components/terminal'
 
 function App() {
   return (
-    <div style={{height: '100%'}} >
+    <div>
       <Terminal />
     </div>
   );

@@ -13,7 +13,9 @@ h1 {
 	line-height: 26.4px;
 	color: #ecf0f1;
 }
-
+body{
+  background-color: black;
+}
 .container{
 	width: 100%;
 	height: 100%;
