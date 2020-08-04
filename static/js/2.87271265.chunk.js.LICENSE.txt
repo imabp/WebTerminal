@@ -1,0 +1,119 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+   * Sizzle CSS Selector Engine v2.3.5
+   * https://sizzlejs.com/
+   *
+   * Copyright JS Foundation and other contributors
+   * Released under the MIT license
+   * https://js.foundation/
+   *
+   * Date: 2020-03-14
+   */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * jQuery JavaScript Library v3.5.1
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2020-05-04T22:49Z
+ */
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** @license React v0.19.1
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**@license
+ *       __ _____                     ________                              __
+ *      / // _  /__ __ _____ ___ __ _/__  ___/__ ___ ______ __ __  __ ___  / /
+ *  __ / // // // // // _  // _// // / / // _  // _//     // //  \/ // _ \/ /
+ * /  / // // // // // ___// / / // / / // ___// / / / / // // /\  // // / /__
+ * \___//____ \\___//____//_/ _\_  / /_//____//_/ /_/ /_//_//_/ /_/ \__\_\___/
+ *           \/              /____/                              version 2.17.6
+ *
+ * This file is part of jQuery Terminal. https://terminal.jcubic.pl
+ *
+ * Copyright (c) 2010-2020 Jakub T. Jankiewicz <https://jcubic.pl/m>e
+ * Released under the MIT license
+ *
+ * Contains:
+ *
+ * Storage plugin Distributed under the MIT License
+ * modified to work from Data URIs that block storage and cookies in Chrome
+ * Copyright (c) 2010 Dave Schindler
+ *
+ * jQuery Timers licenced with the WTFPL
+ * <http://jquery.offput.ca/timers/>
+ *
+ * Cross-Browser Split 1.1.1
+ * Copyright 2007-2012 Steven Levithan <stevenlevithan.com>
+ * Available under the MIT License
+ *
+ * jQuery Caret
+ * Copyright (c) 2009, Gideon Sireling
+ * 3 clause BSD License
+ *
+ * sprintf.js
+ * Copyright (c) 2007-2013 Alexandru Marasteanu <hello at alexei dot ro>
+ * licensed under 3 clause BSD license
+ *
+ * debounce function from Lodash
+ * Copyright JS Foundation and other contributors <https://js.foundation/>
+ * The MIT License
+ *
+ * emoji regex v7.0.1 by Mathias Bynens
+ * MIT license
+ *
+ * broken image by Sophia Bai from the Noun Project (CC-BY)
+ *
+ * Date: Tue, 14 Jul 2020 07:54:55 +0000
+ */
