@@ -28,23 +28,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/imabp/LearnBasicLinuxTerminal">
-    <img src="linuxlogo.png" alt="Logo" width="120" height="120">
+  <a href="https://github.com/imabp/WebTerminal">
+    <img src="./public/logo.svg" alt="Logo">
   </a>
 
-  <h3 align="center">Learn Basic Linux Terminal</h3>
-
   <p align="center">
-    This will be your guide to learning the basic commands used in the shell of Linux.
+    This will be your guide to learning the basic commands used in the shell of Linux <b>on your BROSWER</b> .
     <br />
     <a href="https://www.linux.com/what-is-linux/"><strong>Learn more about Linux »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/imabp/LearnBasicLinuxTerminal">View Demo</a>
+    <a href="https://github.com/imabp/WebTerminal">View Demo</a>
     ·
-    <a href="https://github.com/imabp/LearnBasicLinuxTerminal/issues">Report Bug</a>
+    <a href="https://github.com/imabp/WebTerminal/issues">Report Bug</a>
     ·
-    <a href="https://github.com/imabp/LearnBasicLinuxTerminal/issues">Request Feature</a>
+    <a href="https://github.com/imabp/WebTerminal/issues">Request Feature</a>
   </p>
 </p>
 
@@ -68,7 +66,8 @@
 
 ## About The Project
 
-[![Learn Basic Linux in the Terminal Working Demonstration][product-screenshot]](https://example.com)
+Web Terminal helps you to learn the basic linux commands on your browser itself.
+You can  use it live here: <a href="https://github.com/imabp/WebTerminal">Web Terminal</a>
 
 <!-- Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -114,15 +113,15 @@ npm install
 
 ## Usage
 
-The primary goal of this project is to help you learn basic Linux commands in the terminal.
+The primary goal of this project is to help you learn basic Linux commands in your browser itself.
 
-_For more examples, please refer to the [Working Demo](https://example.com)_
+_For more examples, please refer to the [Working Demo](https://github.com/imabp/WebTerminal)_
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-See the [open issues](https://github.com/imabp/LearnBasicLinuxTerminal/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/imabp/WebTerminal/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -140,29 +139,23 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Abir - [LinkedIN](https://linkedin.com/in/imabp) - abir.pal899@gmail.com
 
-Project Link: [https://github.com/imabp/LearnBasicLinuxTerminal](https://github.com/imabp/LearnBasicLinuxTerminal)
+Project Link: [https://github.com/imabp/WebTerminal](https://github.com/imabp/WebTerminal)
 
 <!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-- []()
-- []()
-- []()
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/imabp/LearnBasicLinuxTerminal.svg?style=flat-square
-[contributors-url]: https://github.com/imabp/LearnBasicLinuxTerminal/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/imabp/LearnBasicLinuxTerminal.svg?style=flat-square
-[forks-url]: https://github.com/imabp/LearnBasicLinuxTerminal/network/members
-[stars-shield]: https://img.shields.io/github/stars/imabp/LearnBasicLinuxTerminal.svg?style=flat-square
-[stars-url]: https://github.com/imabp/LearnBasicLinuxTerminal/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/imabp/WebTerminal.svg?style=flat-square
+[contributors-url]: https://github.com/imabp/WebTerminal/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/imabp/WebTerminal.svg?style=flat-square
+[forks-url]: https://github.com/imabp/WebTerminal/network/members
+[stars-shield]: https://img.shields.io/github/stars/imabp/WebTerminal.svg?style=flat-square
+[stars-url]: https://github.com/imabp/WebTerminal/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/imabp/LearnBasicLinuxTerminal/issues
+[issues-url]: https://github.com/imabp/WebTerminal/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/
 [product-screenshot]: images/screenshot.png
