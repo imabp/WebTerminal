@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/LearnBasicLinuxTerminal/static/css/main.e32b3ee5.chunk.css",
-    "main.js": "/LearnBasicLinuxTerminal/static/js/main.78246388.chunk.js",
-    "main.js.map": "/LearnBasicLinuxTerminal/static/js/main.78246388.chunk.js.map",
+    "main.js": "/LearnBasicLinuxTerminal/static/js/main.31e2ee90.chunk.js",
+    "main.js.map": "/LearnBasicLinuxTerminal/static/js/main.31e2ee90.chunk.js.map",
     "runtime-main.js": "/LearnBasicLinuxTerminal/static/js/runtime-main.f9f77e2a.js",
     "runtime-main.js.map": "/LearnBasicLinuxTerminal/static/js/runtime-main.f9f77e2a.js.map",
     "static/css/2.87812da9.chunk.css": "/LearnBasicLinuxTerminal/static/css/2.87812da9.chunk.css",
     "static/js/2.87271265.chunk.js": "/LearnBasicLinuxTerminal/static/js/2.87271265.chunk.js",
     "static/js/2.87271265.chunk.js.map": "/LearnBasicLinuxTerminal/static/js/2.87271265.chunk.js.map",
     "index.html": "/LearnBasicLinuxTerminal/index.html",
-    "precache-manifest.23097532e6afce1c7583a599c21ff93f.js": "/LearnBasicLinuxTerminal/precache-manifest.23097532e6afce1c7583a599c21ff93f.js",
+    "precache-manifest.21eb9e0f4be76d92f2b0a83e7d2a2947.js": "/LearnBasicLinuxTerminal/precache-manifest.21eb9e0f4be76d92f2b0a83e7d2a2947.js",
     "service-worker.js": "/LearnBasicLinuxTerminal/service-worker.js",
     "static/css/2.87812da9.chunk.css.map": "/LearnBasicLinuxTerminal/static/css/2.87812da9.chunk.css.map",
     "static/css/main.e32b3ee5.chunk.css.map": "/LearnBasicLinuxTerminal/static/css/main.e32b3ee5.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.87812da9.chunk.css",
     "static/js/2.87271265.chunk.js",
     "static/css/main.e32b3ee5.chunk.css",
-    "static/js/main.78246388.chunk.js"
+    "static/js/main.31e2ee90.chunk.js"
   ]
 }
