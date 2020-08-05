@@ -38,7 +38,7 @@
     <a href="https://www.linux.com/what-is-linux/"><strong>Learn more about Linux »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/imabp/WebTerminal">View Demo</a>
+    <a href="https://imabp.github.io/WebTerminal/">View Demo</a>
     ·
     <a href="https://github.com/imabp/WebTerminal/issues">Report Bug</a>
     ·
@@ -115,7 +115,7 @@ npm install
 
 The primary goal of this project is to help you learn basic Linux commands in your browser itself.
 
-_For more examples, please refer to the [Working Demo](https://github.com/imabp/WebTerminal)_
+_For more examples, please refer to the [Working Demo](https://imabp.github.io/WebTerminal/)_
 
 <!-- ROADMAP -->
 
