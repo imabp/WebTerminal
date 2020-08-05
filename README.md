@@ -29,7 +29,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/imabp/WebTerminal">
-    <img src="./public/logo.svg" alt="Logo">
+    <img src="./public/logo.svg" alt="Logo"> &nbsp; &nbsp; <img src="./public/favicon.svg" alt="Logo">
   </a>
 
   <p align="center">
