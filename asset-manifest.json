@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WebTerminal/static/css/main.e32b3ee5.chunk.css",
-    "main.js": "/WebTerminal/static/js/main.31e2ee90.chunk.js",
-    "main.js.map": "/WebTerminal/static/js/main.31e2ee90.chunk.js.map",
+    "main.js": "/WebTerminal/static/js/main.c0b32993.chunk.js",
+    "main.js.map": "/WebTerminal/static/js/main.c0b32993.chunk.js.map",
     "runtime-main.js": "/WebTerminal/static/js/runtime-main.08526ef5.js",
     "runtime-main.js.map": "/WebTerminal/static/js/runtime-main.08526ef5.js.map",
     "static/css/2.87812da9.chunk.css": "/WebTerminal/static/css/2.87812da9.chunk.css",
     "static/js/2.87271265.chunk.js": "/WebTerminal/static/js/2.87271265.chunk.js",
     "static/js/2.87271265.chunk.js.map": "/WebTerminal/static/js/2.87271265.chunk.js.map",
     "index.html": "/WebTerminal/index.html",
-    "precache-manifest.a50713dcbe9cb61a4682339296c8ac78.js": "/WebTerminal/precache-manifest.a50713dcbe9cb61a4682339296c8ac78.js",
+    "precache-manifest.6615ed32f35a68b9814069afb0360cd8.js": "/WebTerminal/precache-manifest.6615ed32f35a68b9814069afb0360cd8.js",
     "service-worker.js": "/WebTerminal/service-worker.js",
     "static/css/2.87812da9.chunk.css.map": "/WebTerminal/static/css/2.87812da9.chunk.css.map",
     "static/css/main.e32b3ee5.chunk.css.map": "/WebTerminal/static/css/main.e32b3ee5.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.87812da9.chunk.css",
     "static/js/2.87271265.chunk.js",
     "static/css/main.e32b3ee5.chunk.css",
-    "static/js/main.31e2ee90.chunk.js"
+    "static/js/main.c0b32993.chunk.js"
   ]
 }
