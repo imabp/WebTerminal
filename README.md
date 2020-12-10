@@ -1,4 +1,4 @@
-## Not Open for Contributions Now.
+## Open For Contributions (KWOC Participants Only)
 
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
@@ -20,12 +20,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -59,17 +53,16 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [Roadmap](#roadmap)
-- ~~[Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Contribution](#contribute)
+- [Contact](#maintainer)
+
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
 Web Terminal helps you to learn the basic linux commands on your browser itself.
-You can  use it live here: <a href="https://github.com/imabp/WebTerminal">Web Terminal</a>
+You can  use it live here: <a href="https://imabp.github.io/WebTerminal">Web Terminal</a>
 
 <!-- Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -127,35 +120,16 @@ See the [open issues](https://github.com/imabp/WebTerminal/issues) for a list of
 
 <!-- CONTRIBUTING -->
 
-## Contributing ( NOT OPEN FOR CONTRIBUTIONS ANYMORE)
+## Contribute
+> Only open for KWOC participants. Those whoh want to participate at KWOC, you can participate [here](http://kwoc.kossiitkgp.org/).
 
-~~Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-~1. Fork the Project
-~2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-~3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-~4. Push to the Branch (`git push origin feature/AmazingFeature`)
-~5. Open a Pull Request
-<!-- CONTACT -->
+Join the communication channel for this project on 
+[Gitter](https://gitter.im/imabp/WebTerminal?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-## Contact
+## Maintainer
+Important decisions regarding the project is taken by the following maintainer.
 
-Abir - [LinkedIN](https://linkedin.com/in/imabp) - abir.pal899@gmail.com
-
-Project Link: [https://github.com/imabp/WebTerminal](https://github.com/imabp/WebTerminal)
-
-<!-- ACKNOWLEDGEMENTS -->
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/imabp/WebTerminal.svg?style=flat-square
-[contributors-url]: https://github.com/imabp/WebTerminal/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/imabp/WebTerminal.svg?style=flat-square
-[forks-url]: https://github.com/imabp/WebTerminal/network/members
-[stars-shield]: https://img.shields.io/github/stars/imabp/WebTerminal.svg?style=flat-square
-[stars-url]: https://github.com/imabp/WebTerminal/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/imabp/WebTerminal/issues
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/
-[product-screenshot]: images/screenshot.png
+| Abir        |
+| :-------------: |
+| <img  height="100" width="100" src="https://avatars3.githubusercontent.com/u/53480076?s=460&u=c1aad58f1a773750a47475682afa80ac3b74f583&v=4">      |
+| [@imabp](https://github.com/imabp)      |
