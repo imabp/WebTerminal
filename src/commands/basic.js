@@ -8,7 +8,7 @@ var arr2 = ['echo','pwd','ls','cd','cd ..','cd ~','cat','touch','cp','rm','mkdir
 //all the newly added commands must be updated in both the above arrays
 var task = ['[[b;#ff3300;]Not Completed]', '[[b;#44D544;]Completed]'];  // To print the task status
 
-var pwdv = ["lterm"]  // To print pwd 
+var pwdv = ["imabp"]  // To print pwd 
 var s = [];   //Array for directories
 var f = [];   //Array for files
 var count = 6;    //Required to continue making ~sub directories
