@@ -42,6 +42,13 @@
   </p>
 </p>
 
+<!-- KWOC Banner -->
+<p align="center">
+<img src="./public/banner.svg"/>
+</p>
+
+
+
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
