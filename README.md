@@ -128,13 +128,13 @@ See the [open issues](https://github.com/imabp/WebTerminal/issues) for a list of
 <!-- CONTRIBUTING -->
 
 ## Contribute
-> Only open for KWOC participants. Those whoh want to participate at KWOC, you can participate [here](http://kwoc.kossiitkgp.org/).
+> Only open for KWOC participants. Those who want to participate at KWOC, you can participate [here](http://kwoc.kossiitkgp.org/).
 
 Join the communication channel for this project on 
 [Gitter](https://gitter.im/imabp/WebTerminal?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 ## Maintainer
-Important decisions regarding the project is taken by the following maintainer.
+Important decisions regarding the project are taken by the following maintainer.
 
 | Abir        |
 | :-------------: |
