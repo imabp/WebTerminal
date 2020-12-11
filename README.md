@@ -140,3 +140,7 @@ Important decisions regarding the project are taken by the following maintainer.
 | :-------------: |
 | <img  height="100" width="100" src="https://avatars3.githubusercontent.com/u/53480076?s=460&u=c1aad58f1a773750a47475682afa80ac3b74f583&v=4">      |
 | [@imabp](https://github.com/imabp)      |
+
+
+## Deployment
+<a href="https://imabp.github.io/WebTerminal"><img src="https://img.shields.io/badge/-GitHub%20Pages-black?style=for-the-badge&logo=github"/></a>
