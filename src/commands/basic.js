@@ -56,6 +56,16 @@ let basic = context => {
             context.echo('> Type [[b;#ff3300;]help] and check your first task is completed.');
             context.echo('> Now type [[b;#ff3300;]pwd] to continue.');
         },
+        pwd: function() {
+            arr[1] = 1;
+            var pwdvNew = pwdv.join(',').replace(',', '/').split();
+            this.echo("/home/" + pwdvNew + '\n');
+            this.echo('> Everything in Linux is a file. Every file is organized in a hierarchical directory tree.\n' +
+                '> The first directory in the filesystem is aptly named the root directory.\n' +
+                '> To see where you are, you can use the [[b;#ff3300;]pwd] command, this command means “print working directory”\n' +
+                'and it just shows you which directory you are in.');
+            this.echo('> Now type [[b;#ff3300;]ls] to see the directories and files present in the current directory');
+        },
         mkdir: (arg1)=>{
             arr[10] = 1;
             context.echo('> The [[b;#ff3300;]mkdir] command (Make Directory) creates a directory if it doesn’t already exist.');
