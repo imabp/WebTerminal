@@ -61,23 +61,22 @@ let basic = context => {
             context.echo('> The [[b;#ff3300;]mkdir] command (Make Directory) creates a directory if it doesn’t already exist.');
             context.echo('> Type [[b;#ff3300;]ls] to see the new directory created.');
             let x = o[pwdv[pwdv.length - 1]];
-            o[arg1] = count;
-            s[x].push(arg1);
+            o[arg1] = `${count}`;
             s[count] = [];
             f[count] = [];
             x = 0;
             count++;
         },
-        ls: function() {  
-            arr[2] = 1; 
+        ls: () => {  
+            arr[2] = 1;
             let x = o[pwdv[pwdv.length - 1]];
             let y = "[[b;#44D544;]" + s[x] + "]," + f[x];
             var z = y.replace(/,/g, '        ').split();
-            this.echo(z);
+            context.echo(z);
             x = 0;
-            this.echo('> The [[b;#ff3300;]ls] command will list directories and files in the current directory by default,\n' +
+            context.echo('> The [[b;#ff3300;]ls] command will list directories and files in the current directory by default,\n' +
             'however you can specify which path you want to list the directories of.');
-            this.echo('> Now type [[b;#ff3300;]cd Documents] to enter a sub directory.');
+            context.echo('> Now type [[b;#ff3300;]cd Documents] to enter a sub directory.');
         },
     }
 }
