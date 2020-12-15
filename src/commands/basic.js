@@ -77,6 +77,17 @@ let basic = context => {
             x = 0;
             count++;
         },
+        uname: () => {
+            arr[12] = 1;
+            let uname;
+            if (navigator.appVersion.indexOf("Win") != -1) uname = "Windows"; 
+            if (navigator.appVersion.indexOf("Mac") != -1) uname = "Mac"; 
+            if (navigator.appVersion.indexOf("X11") != -1) uname = "UNIX"; 
+            if (navigator.appVersion.indexOf("Linux") != -1) uname = "Linux"; 
+            context.echo(`${uname}\n`);
+            context.echo('> The [[b;#ff3300;]uname] command prints the operating system of the current machine.\n');
+            context.echo('> Now type [[b;#ff3300;]date] to get current date and time.');
+        },
         ls: () => {  
             arr[2] = 1;
             let x = o[pwdv[pwdv.length - 1]];
