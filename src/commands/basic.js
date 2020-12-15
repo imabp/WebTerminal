@@ -99,6 +99,12 @@ let basic = context => {
             'however you can specify which path you want to list the directories of.');
             context.echo('> Now type [[b;#ff3300;]cd Documents] to enter a sub directory.');
         },
+        date: () => {
+            arr[13] = 1;
+            context.echo(`${new Date()}\n`);
+            context.echo('> The [[b;#ff3300;]date] command will display the date in the timezone on which the operating system was configured. You must be the super user to change date and time.');
+            context.echo('> Now type [[b;#ff3300;]ifconfig] to get interface configuration of the system.');
+        }
     }
 }
 
