@@ -11,7 +11,7 @@ const intro={
 
     prompt:"[[b;#44D544;]imabp@localhost:~$] ",
     greetings: "All rights reserved to the owner © [[b;#FFFFFF;]imabp]\n\n" +
-                "This is part of project under [[b;#FFFF00;]Ninja Developers ] "+"\n We [[b;#FF0000;]❤ ]  Open Source \n"+
+                "This is part of project under [[b;#FFFF00;]Ninja Developers ] "+"\n We [[b;#FF0000;]❤]  Open Source \n"+
                "If you want to contribute, you can at github @imabp. \n Type  [[b;#FFFFFF;]help] to get started \n" +
                "> The shell is basically a program that takes your commands from the keyboard and sends them to the operating system to perform.\n" +
                "> The [[b;#44D544;]Terminal] is a program that launches a shell for you.\n" +
