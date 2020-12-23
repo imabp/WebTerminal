@@ -1,10 +1,10 @@
 
 var id = 1;
-var arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];// Keeps track of different commands(i.e., if they are completed or not)
+var arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];// Keeps track of different commands(i.e., if they are completed or not)
                                 // 0 -> not completed
                                 // 1 -> completed 
                                 // added 1 more position
-var arr2 = ['echo','pwd','ls','cd','cd ..','cd ~','cat','touch','cp','rm','mkdir','clear','uname','date','ifconfig','tty','history'];
+var arr2 = ['echo','pwd','ls','cd','cd ..','cd ~','cat','touch','cp','rm','mkdir','clear','uname','date','ifconfig','tty','history','whoami'];
 //all the newly added commands must be updated in both the above arrays
 var task = ['[[b;#ff3300;]Not Completed]', '[[b;#44D544;]Completed]'];  // To print the task status
 
@@ -47,6 +47,7 @@ let basic = context => {
             context.echo('> ifconfig ------- ' + task[arr[14]]);
             context.echo('> tty ------------ ' + task[arr[15]]);
             context.echo('> history -------- ' + task[arr[16]]);
+            context.echo('> whoami -------- ' + task[arr[17]]);
             context.echo('\n');
         },
         echo: (text)=>{
@@ -104,6 +105,11 @@ let basic = context => {
             context.echo(`${new Date()}\n`);
             context.echo('> The [[b;#ff3300;]date] command will display the date in the timezone on which the operating system was configured. You must be the super user to change date and time.');
             context.echo('> Now type [[b;#ff3300;]ifconfig] to get interface configuration of the system.');
+        },
+        whoami:()=>{
+            arr[17]=1;
+            context.echo(`${pwdv}\n`);
+            context.echo('> The [[b;#ff3300;]whoami] command will display the username of the system');
         }
     }
 }
