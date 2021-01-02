@@ -8,6 +8,9 @@ let fs =  context =>{
         },
         cd: (arg) => {
             context.echo(file.changeDir(arg))
+        },
+        mkdir: (arg)=>{
+            context.echo(file.mkdir(arg))
         }
     }
 }
