@@ -52,7 +52,7 @@
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
-
+- [Project Breakdown](#about-the-project)
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
@@ -63,6 +63,12 @@
 - [Contribution](#contribute)
 - [Contact](#maintainer)
 
+<!-- Project Breakdown -->
+## Project Breakdown 
+
+<p align="center">
+<img src="./public/breakdown.png"/>
+</p>
 
 <!-- ABOUT THE PROJECT -->
 
