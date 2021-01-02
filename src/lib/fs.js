@@ -21,6 +21,19 @@ class FileSystem{
     }
 
     changeDir(dir){
+        
+        if(dir =='..'){
+                 if(this.level===0)
+                 return " You are in the root directory. "
+                    else{
+                        this.level--;
+                        let dr = _.find(this.fs,{level: this.level})
+
+                        return `You are now in ${dr.root} directory`
+                    }
+        
+        }else{
+        
         let dr = _.find(this.fs,{level: this.level})
         if(!_.includes(dr.contents, dir) ){
             return "directoy not present"
@@ -31,11 +44,22 @@ class FileSystem{
             contents: []
         }
         this.level++
-
+    
+        
         this.fs.push(d)
-        return d.contents
+        return d.contents}
     }
 
+    mkdir(dir){
+        let currentDir = _.find(this.fs, {level:this.level})
+        if(!_.includes(currentDir.contents, dir))
+        {
+            currentDir.contents.push(dir)
+            return ` ${dir} directory successfully created in parent ${currentDir.root}`
+        }
+
+    }
+    
 }
 
 export default FileSystem
