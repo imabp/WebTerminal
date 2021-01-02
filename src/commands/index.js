@@ -1,9 +1,10 @@
 import {basic} from './basic'
 import {fs} from './files'
-
+import counterService from './counter.service'
 const commands = context => {
-    let b = basic(context)
-    let f = fs(context)
+    const counter = new counterService();
+    let b = basic(context,counter)
+    let f = fs(context,counter)
     return {
         ...b,
         ...f
