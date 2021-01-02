@@ -22,7 +22,7 @@ class FileSystem{
 
     changeDir(dir){
         
-        if(dir =='..'){
+        if(dir ==='..'){
                  if(this.level===0)
                  return " You are in the root directory. "
                     else{
