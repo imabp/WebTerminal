@@ -1,6 +1,6 @@
 import Files from '../lib/fs'
 let file = new Files()
-let fs =  context =>{
+let fs =  (context,counter) =>{
 
     return {
         ls: () => {
