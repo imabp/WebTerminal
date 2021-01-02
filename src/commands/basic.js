@@ -1,5 +1,5 @@
 
-var id = 1;
+
 var arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];// Keeps track of different commands(i.e., if they are completed or not)
                                 // 0 -> not completed
                                 // 1 -> completed 
@@ -9,21 +9,9 @@ var arr2 = ['echo','pwd','ls','cd','cd ..','cd ~','cat','touch','cp','rm','mkdir
 var task = ['[[b;#ff3300;]Not Completed]', '[[b;#44D544;]Completed]'];  // To print the task status
 
 var pwdv = ["imabp"]  // To print pwd 
-var s = [];   //Array for directories
-var f = [];   //Array for files
-var count = 6;    //Required to continue making ~sub directories
-var o = { "lterm": "0", "Documents": "1", "Downloads": "2", "Music": "3", "Pictures": "4", "Videos":"5" };  //Object to assign array of sub folders to a folder
-var of = { "hello.txt": "Hey there newbie!\nHaving fun? I hope so." };  //Object to assign text to a file
-f[0] = ["hello.txt"];
-s[0] = ["Documents", "Downloads", "Music", "Pictures", "Videos"];   //Array listing sub directories
-s[1] = []; f[1] = [];
-s[2] = []; f[2] = [];
-s[3] = []; f[3] = [];
-s[4] = []; f[4] = [];
-s[5] = []; f[5] = [];
+
 let basic = context => {
     return {
-     
         help: () => {
             context.echo("Hello")
             context.echo('\nList of commands available:');
@@ -59,23 +47,12 @@ let basic = context => {
         pwd: function() {
             arr[1] = 1;
             var pwdvNew = pwdv.join(',').replace(',', '/').split();
-            this.echo("/home/" + pwdvNew + '\n');
-            this.echo('> Everything in Linux is a file. Every file is organized in a hierarchical directory tree.\n' +
+            context.echo("/home/" + pwdvNew + '\n');
+            context.echo('> Everything in Linux is a file. Every file is organized in a hierarchical directory tree.\n' +
                 '> The first directory in the filesystem is aptly named the root directory.\n' +
                 '> To see where you are, you can use the [[b;#ff3300;]pwd] command, this command means “print working directory”\n' +
                 'and it just shows you which directory you are in.');
-            this.echo('> Now type [[b;#ff3300;]ls] to see the directories and files present in the current directory');
-        },
-        mkdir: (arg1)=>{
-            arr[10] = 1;
-            context.echo('> The [[b;#ff3300;]mkdir] command (Make Directory) creates a directory if it doesn’t already exist.');
-            context.echo('> Type [[b;#ff3300;]ls] to see the new directory created.');
-            let x = o[pwdv[pwdv.length - 1]];
-            o[arg1] = `${count}`;
-            s[count] = [];
-            f[count] = [];
-            x = 0;
-            count++;
+            context.echo('> Now type [[b;#ff3300;]ls] to see the directories and files present in the current directory');
         },
         uname: () => {
             arr[12] = 1;
@@ -87,17 +64,6 @@ let basic = context => {
             context.echo(`${uname}\n`);
             context.echo('> The [[b;#ff3300;]uname] command prints the operating system of the current machine.\n');
             context.echo('> Now type [[b;#ff3300;]date] to get current date and time.');
-        },
-        ls: () => {  
-            arr[2] = 1;
-            let x = o[pwdv[pwdv.length - 1]];
-            let y = "[[b;#44D544;]" + s[x] + "]," + f[x];
-            var z = y.replace(/,/g, '        ').split();
-            context.echo(z);
-            x = 0;
-            context.echo('> The [[b;#ff3300;]ls] command will list directories and files in the current directory by default,\n' +
-            'however you can specify which path you want to list the directories of.');
-            context.echo('> Now type [[b;#ff3300;]cd Documents] to enter a sub directory.');
         },
         date: () => {
             arr[13] = 1;
