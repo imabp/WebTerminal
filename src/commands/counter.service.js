@@ -1,7 +1,7 @@
 
 class counterService{
     constructor(){
-            this.commandCounter = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];// Keeps track of different commands(i.e., if they are completed or not)
+            this.commandCounter = [0,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1];// Keeps track of different commands(i.e., if they are completed or not)
             // 0 -> not completed
             // 1 -> completed 
             // added 1 more position
