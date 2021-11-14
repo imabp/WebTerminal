@@ -24,7 +24,9 @@ class counterService{
             'date',//13
             'ifconfig',//14
             'tty',//15
-            'history'//16
+            'history',//16
+            'about',//17
+            'contribute'//18
             ];
             //all the newly added commands must be updated in both the above arrays
             // --------------------------------------------------------------------

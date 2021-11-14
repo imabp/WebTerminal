@@ -62,6 +62,16 @@ let basic = (context,counter) => {
             context.echo(`${new Date()}\n`);
             context.echo('> The [[b;#ff3300;]date] command will display the date in the timezone on which the operating system was configured. You must be the super user to change date and time.');
             context.echo('> Now type [[b;#ff3300;]ifconfig] to get interface configuration of the system.');
+        },
+        about: () => {
+            counter.setStatusTrue(17)
+            context.echo('> The shell is basically a program that takes your commands from the keyboard and sends them to the operating system to perform.\n');
+            context.echo('> The [[b;#44D544;]Terminal] is a program that launches a shell for you.\n');
+        },
+        contribute: () => {
+            counter.setStatusTrue(18)
+            context.echo('> This is part of project under [[b;#FFFF00;]Ninja Developers ] \n We [[b;#FF0000;]❤]  Open Source \n');
+            context.echo('> If you want to contribute, you can at github imabp/WebTerminal.');
         }
     }
 }
