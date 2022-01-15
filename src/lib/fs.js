@@ -36,7 +36,7 @@ class FileSystem{
         
         let dr = _.find(this.fs,{level: this.level})
         if(!_.includes(dr.contents, dir) ){
-            return "directoy not present"
+            return "directory not present"
         }
         let d = {
             level: this.level+1,
