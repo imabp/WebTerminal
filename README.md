@@ -67,7 +67,8 @@
 ## Project Breakdown 
 
 <p align="center">
-<img src="./public/breakdown.png"/>
+<img width="487" alt="Project Breakdown" src="https://github.com/user-attachments/assets/65252331-5c21-4a94-b2fd-c674f5123fd6">
+
 </p>
 
 <!-- ABOUT THE PROJECT -->
